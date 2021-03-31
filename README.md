@@ -145,7 +145,7 @@ You need only select the environment that matches your operating system:
 Start the Jupyter Notebook using the following commands.
 
 ```
-$ conda activate udacity udacity-deeprl-p2
+$ conda activate udacity udacity-drlnd-p2
 $ jupyter notebook
 ```
 

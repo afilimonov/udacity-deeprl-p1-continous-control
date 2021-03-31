@@ -72,7 +72,7 @@ In addition to network architectue describe in the previous section here are the
 
 * checkpoint.pt
 
-Ideas for Future Work
+### Ideas for Future Work
 
 In this project I used DDPG with Experience Replay which solved the enviroment by getting +30 mean average reward relatively easily. Hear are some other approaches and future work ideas.
 

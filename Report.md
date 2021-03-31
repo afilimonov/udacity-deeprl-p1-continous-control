@@ -20,5 +20,18 @@ This implementation is solving Verson 2 of the environment with 20 agents.
 
 #### Algorithm
 
-The alorithm used in this implementaton is [Deep Deterministic Policy Gradient algorithm DDPG](https://arxiv.org/abs/1509.02971)
+The alorithm used in this implementaton is [Deep Deterministic Policy Gradient algorithm DDPG](https://arxiv.org/abs/1509.02971). DDPG is based on two neural networks Actor and Critic with the actor used to estimate the best action and the critict then used to evaluate the optimal actioin value function.
+
+The Actor Network receives as input 33 variables representing the observation space and generates as output 4 numbers representing the predicted best action for that observed state. That means, the Actor is used to approximate the optimal policy _π_ deterministically.
+
+The Critic Network receives as input 33 variables representing the observation space. The result of the first hidden layer and the action proceeding from the Actor Network are combined as input for the second hidden layer. The output of this network is the prediction of the target value based on the given state and the estimated best action. In other words the critic calculates the optimal action-value function _Q(s, a)_ based on the Actor best estimated action.
+
+#### Network architecture
+
+The fineal network architecture for Actor and Critic includes:
+* First fully connected layer with input size 33 and output size 128
+* Second fully connected layer with input size 128 and output size 128
+* Third fully connected layer with input size 128 and output size 4
+* Cirtic has Batch Normalization layer between first and second layer with input size 128
+
 

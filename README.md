@@ -4,7 +4,7 @@
 This project is part of the [Deep Reinforcement Learning Nanodegree Program](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893), by Udacity.  
 
 The goal of this project is to create and train a double-jointed arm agent that is able to maintain its hand in contact with a moving target for as many time steps as possible.  
-![](./imgages/reacher.gif)
+![](./images/reacher.gif)
 
 
 ## Understanding the environment

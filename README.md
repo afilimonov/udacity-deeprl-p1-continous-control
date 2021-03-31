@@ -149,5 +149,9 @@ $ conda activate udacity udacity-deeprl-p2
 $ jupyter notebook
 ```
 
-Execute all cells in the notebook. 
+To train and test the agent, start jupyter notebook, open `Continuous_Control.ipynb` and execute the cells. The notebook contains additional inforamation on all steps requried to train and test the agent.
+
+#### Additional Information
+
+* [Performance Report](Report.md) - detailed solution walkthrough and performance reports for traing DDPG agent.
 

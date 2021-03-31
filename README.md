@@ -65,7 +65,7 @@ The barrier to solving the second version of the environment is slightly differe
 $ git clone https://github.com/afilimonov/udacity-deeprl-p2-continous-control.git
 ```
 
-### Installing Miniconda
+### Install Miniconda
 
 Miniconda is a free minimal installer for conda. It is a small, bootstrap version of Anaconda that includes only conda, Python, the packages they depend on, and a small number of other useful packages, including pip, zlib, and a few others.  
 
@@ -81,7 +81,7 @@ Alternatively, you can install the complete Anaconda Platform
 * Download the installer: [https://www.anaconda.com/distribution/](https://www.anaconda.com/distribution/)
 * Installation Guide: [https://docs.anaconda.com/anaconda/install/](https://docs.anaconda.com/anaconda/install/)
 
-### Configuring the local environment
+### Configure the environment
 
 **1. Create the environment**  
   

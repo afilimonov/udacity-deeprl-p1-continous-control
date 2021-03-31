@@ -44,6 +44,16 @@ _Critic_
 
 I started with 2 hidden layers sizes 400 and 300 for both actor and crtic as suggested in the DDPG paper and also tried [512, 384], [384, 256] and end up with [128, 128] model that converged well with stable training peformance. I also tried using Batch Normalization for the actor network but it resulted in singificatly higer score fluctuation during the training.
 
+#### Hyperparameters
 
+In addition to network architectue describe in the previous section here are the final training hyperparaters:
 
+* Max number of timestamps per episode: 1000
+* Replay buffer size: 100000
+* Batch size: 128
+* Learning rate actor: 0.001
+* Learning rate critic: 0.001
+* Discounted reward factor: 0.99
+* Sof Update interpolation: 0.001
+* Noise decay: 0.999
 

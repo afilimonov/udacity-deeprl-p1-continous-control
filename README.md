@@ -7,7 +7,7 @@ The goal of this project is to create and train a double-jointed arm agent that 
 ![](./images/reacher.gif)
 
 
-## Understanding the environment
+## Th environment
 
 This environment has been built using the **Unity Machine Learning Agents Toolkit (ML-Agents)**, which is an open-source Unity plugin that enables games and simulations to serve as environments for training intelligent agents. You can read more about ML-Agents by perusing this [GitHub repository](https://github.com/Unity-Technologies/ml-agents).  
 
@@ -34,18 +34,16 @@ The task is episodic, and in order to solve the environment, the agent must get 
 The barrier to solving the second version of the environment is slightly different, to take into account the presence of many agents. In particular, the agents must get an average score of +30 (over 100 consecutive episodes, and over all agents). Specifically,
  * After each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent. That yields 20 (potentially different) scores. We then take the average of these 20 scores.  
  * That yields an average score for each episode (where the average is over all 20 agents).  
- * The environment is considered solved, when the **moving average over 100 episodes** of those average scores **is at least +30**.
+  
+ The environment is considered solved, when the **moving average over 100 episodes** of those average scores **is at least +30**.
 
 
 ## Included in this repository
 
-* The code used to create and train the Agent
-  * Continuous_Control.ipynb
-  * ddpg_agent.py
-  * model.py
-* The trained model
-  * checkpoint.pt
-* A file describing all the packages required to set up the environment
-  * environment.yml
-* A Report.md file describing the development process and the learning algorithm, along with ideas for future work
+* Continuous_Control.ipynb - notebook to run the project
+* agent.py - ddpg agent implementatioin
+* actor.py - actor model implementation
+* critic.py - critic model implementation
+* checkpoint.pt - saved agent model (actor and critic)
+* A Report.md - document describing the solution, the learning algorithm, and ideas for future work
 * This README.md file

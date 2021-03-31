@@ -1,4 +1,8 @@
-# Byte-compiled / optimized / DLL files
+.DSStore
+.ipynb_checkpoints
+Reacher*
+unity-environment.log
+
 __pycache__/
 *.py[cod]
 *$py.class

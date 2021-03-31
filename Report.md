@@ -57,3 +57,27 @@ In addition to network architectue describe in the previous section here are the
 * Sof Update interpolation: 0.001
 * Noise decay: 0.999
 
+### Training Results
+
+##### Agent training logs
+
+
+##### Traning performance Graph
+
+
+#### Agent testing log
+
+
+#### Trained Model
+
+* checkpoint.pt
+
+Ideas for Future Work
+
+In this project I used DDPG with Experience Replay which solved the enviroment by getting +30 mean average reward relatively easily. Hear are some other approaches and future work ideas.
+
+* I used Udacity workspace to solve the environment. I plan to setup local environment and watch trained agents in action.
+* Explore Proximal [Policy Optimization Algorithm](https://arxiv.org/abs/1707.06347) that I studied in the course
+* Implement [Prioritized Expereinece Replay](https://arxiv.org/abs/1511.05952)
+ 
+

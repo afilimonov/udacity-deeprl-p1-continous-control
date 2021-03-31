@@ -7,7 +7,7 @@ The goal of this project is to create and train a double-jointed arm agent that 
 ![](./images/reacher.gif)
 
 
-## Th environment
+## The environment
 
 This environment has been built using the **Unity Machine Learning Agents Toolkit (ML-Agents)**, which is an open-source Unity plugin that enables games and simulations to serve as environments for training intelligent agents. You can read more about ML-Agents by perusing this [GitHub repository](https://github.com/Unity-Technologies/ml-agents).  
 

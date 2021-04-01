@@ -38,7 +38,7 @@ _Actor_
 
 _Critic_ 
 * First fully connected layer with input size 33 and output size 128
-* Second fully connected layer with input size (128 + 4) and output size 128
+* Second fully connected layer with input size (128 + 4) = 132 and output size 128
 * Third fully connected layer with input size 128 and output size 1
 * Batch Normalization layer between first and second layers
 

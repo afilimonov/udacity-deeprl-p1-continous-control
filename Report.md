@@ -110,6 +110,6 @@ In this project I used DDPG with Experience Replay which solved the enviroment b
 
 * I used Udacity workspace to solve the environment. I plan to setup local environment and watch trained agents in action.
 * Explore [Proximal Policy Optimization Algorithm](https://arxiv.org/abs/1707.06347) that I studied in the course
-* Implement [Prioritized Expereinece Replay](https://arxiv.org/abs/1511.05952)
+* Implement [Prioritized Experienece Replay](https://arxiv.org/abs/1511.05952)
  
 

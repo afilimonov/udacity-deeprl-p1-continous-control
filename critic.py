@@ -20,12 +20,12 @@ class Critic(Actor):
         super(Actor, self).__init__()
         self.seed = torch.manual_seed(seed)
         
-        self.fc1 = nn.Linear(state_size, 400)
-        self.fc2 = nn.Linear(400 + action_size, 300)
-        self.fc3 = nn.Linear(300, action_size)
+        self.fc1 = nn.Linear(state_size, 128)
+        self.fc2 = nn.Linear(128 + action_size, 128)
+        self.fc3 = nn.Linear(128, action_size)
         
         # Batch normalization
-        self.bn = nn.BatchNorm1d(400)
+        self.bn = nn.BatchNorm1d(128)
         
         # Initialize the hidden layer weights
         self.reset_parameters()

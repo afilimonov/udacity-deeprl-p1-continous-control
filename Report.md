@@ -61,12 +61,43 @@ In addition to network architectue describe in the previous section here are the
 
 ##### Agent training logs
 
+ ```
+...
+Episode  80 (02m51s)	Score: 34.49 	Average score: 30.95 
+Episode  81 (02m51s)	Score: 35.20 	Average score: 31.00 
+Episode  82 (02m52s)	Score: 34.86 	Average score: 31.05 
+Episode  83 (02m52s)	Score: 35.30 	Average score: 31.10 
+Episode  84 (02m52s)	Score: 33.73 	Average score: 31.13 
+Episode  85 (02m51s)	Score: 35.61 	Average score: 31.18 
+Episode  86 (02m49s)	Score: 35.15 	Average score: 31.23 
+Episode  87 (02m47s)	Score: 35.12 	Average score: 31.28 
+Episode  88 (02m47s)	Score: 34.78 	Average score: 31.32 
+Episode  89 (02m47s)	Score: 35.91 	Average score: 31.37 
+Episode  90 (02m48s)	Score: 33.78 	Average score: 31.39 
+Episode  91 (02m49s)	Score: 34.35 	Average score: 31.43 
+Episode  92 (02m49s)	Score: 36.37 	Average score: 31.48 
+Episode  93 (02m49s)	Score: 37.96 	Average score: 31.55 
+Episode  94 (02m48s)	Score: 36.11 	Average score: 31.60 
+Episode  95 (02m49s)	Score: 35.30 	Average score: 31.64 
+Episode  96 (02m48s)	Score: 38.36 	Average score: 31.71 
+Episode  97 (02m49s)	Score: 36.11 	Average score: 31.75 
+Episode  98 (02m47s)	Score: 33.45 	Average score: 31.77 
+Episode  99 (02m46s)	Score: 32.30 	Average score: 31.78 
+Episode 100 (02m48s)	Score: 34.18 	Average score: 31.80 
+
+Environment solved in 0 episodes!	Average Score: 31.80	Elapsed time: 04h49m33s
+
+ ```
 
 ##### Traning performance Graph
 
+![](./images/training-results.png)
 
 #### Agent testing log
 
+```
+Score for this episode: 33.47
+```
 
 #### Trained Model
 

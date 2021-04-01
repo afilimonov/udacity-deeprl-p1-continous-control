@@ -30,13 +30,14 @@ The Critic Network receives input of 33 variables representing the observation s
 
 The fineal network architectures for Actor and Critic include.
 
-_Actor_ 
+[_Actor_](actor.py) 
 * First fully connected layer with input size 33 and output size 128
 * Second fully connected layer with input size 128 and output size 128
 * Third fully connected layer with input size 128 and output size 4
 * Cirtic has Batch Normalization layer between first and second layers with input size 128
 
-_Critic_ 
+
+[_Critic_](critic.py)
 * First fully connected layer with input size 33 and output size 128
 * Second fully connected layer with input size (128 + 4) = 132 and output size 128
 * Third fully connected layer with input size 128 and output size 1

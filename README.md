@@ -149,7 +149,7 @@ $ conda activate udacity udacity-drlnd-p2
 $ jupyter notebook
 ```
 
-To train and test the agent, start jupyter notebook, open `Continuous_Control.ipynb` and execute the cells. The notebook contains additional inforamation on all steps requried to train and test the agent.
+To train and test the open `Continuous_Control.ipynb` and execute the cells. The notebook contains additional inforamation on all steps requried to train and test the agent.
 
 #### Additional Information
 

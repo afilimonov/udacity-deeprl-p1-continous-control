@@ -22,7 +22,7 @@ class Critic(Actor):
         
         self.fc1 = nn.Linear(state_size, 128)
         self.fc2 = nn.Linear(128 + action_size, 128)
-        self.fc3 = nn.Linear(128, action_size)
+        self.fc3 = nn.Linear(128, 1)
         
         # Batch normalization
         self.bn = nn.BatchNorm1d(128)

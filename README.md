@@ -56,7 +56,7 @@ The barrier to solving the second version of the environment is slightly differe
 
 ##### Option 1. Download it as a zip file
 
-* [Click here](https://github.com/afilimonov/udacity-deeprl-p2-continous-control/archive/master.zip) to download all the content of this repository as a zip file
+* [Click here](https://github.com/afilimonov/udacity-deeprl-p2-continous-control/archive/refs/heads/main.zip) to download all the content of this repository as a zip file
 * Decompress the downloaded file into a folder of your choice
 
 ##### Option 2. Clone this repository using Git version control system

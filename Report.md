@@ -91,7 +91,7 @@ Environment solved in 0 episodes!	Average Score: 31.80	Elapsed time: 04h49m33s
 
 ##### Traning performance Graph
 
-![](./images/training-results.png)
+![](./images/traning-results.png)
 
 #### Agent testing log
 

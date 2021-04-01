@@ -106,10 +106,10 @@ Score for this episode: 33.47
 
 ### Ideas for Future Work
 
-In this project I used DDPG with Experience Replay which solved the enviroment by getting +30 mean average reward relatively easily. Hear are some other approaches and future work ideas.
+In this project I used DDPG with Experience Replay which solved the enviroment by getting +30 mean average reward relatively easily. Here are some other approaches and future work ideas.
 
 * I used Udacity workspace to solve the environment. I plan to setup local environment and watch trained agents in action.
-* Explore Proximal [Policy Optimization Algorithm](https://arxiv.org/abs/1707.06347) that I studied in the course
+* Explore [Proximal Policy Optimization Algorithm](https://arxiv.org/abs/1707.06347) that I studied in the course
 * Implement [Prioritized Expereinece Replay](https://arxiv.org/abs/1511.05952)
  
 

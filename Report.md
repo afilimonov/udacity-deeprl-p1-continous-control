@@ -40,9 +40,9 @@ _Critic_
 * First fully connected layer with input size 33 and output size 128
 * Second fully connected layer with input size (128 + 4) and output size 128
 * Third fully connected layer with input size 128 and output size 1
-* Batch Normalization layer between first and second layers with input size 128
+* Batch Normalization layer between first and second layers
 
-I started with 2 hidden layers sizes 400 and 300 for both actor and crtic as suggested in the DDPG paper and also tried [512, 384], [384, 256] and end up with [128, 128] model that converged well with stable training peformance. I also tried using Batch Normalization for the actor network but it resulted in singificatly higer score fluctuation during the training.
+I started with 2 hidden layers sizes 400 and 300 for both actor and crtic as suggested in the DDPG paper and also tried [512, 384], [384, 256] and ended up with [128, 128] model that converged well with stable training peformance. I also tried using Batch Normalization for the actor network but it resulted in a worse traning performance.
 
 #### Hyperparameters
 
